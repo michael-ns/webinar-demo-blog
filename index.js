@@ -7,7 +7,7 @@ console.log('loading Lambda HTML');
 exports.handler = function(event, context) {
     
       var params = {
-          FunctionName: 'login-demo2', // the lambda function we are going to invoke
+          FunctionName: 'login-demo', // the lambda function we are going to invoke
 	      InvocationType: 'RequestResponse',
 	          LogType: 'Tail',
 		      Payload: '{}'
